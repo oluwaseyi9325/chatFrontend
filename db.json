@@ -1,0 +1,16 @@
+{
+  "chat": [
+    {
+      "chatInput": "hi",
+      "id": 3
+    },
+    {
+      "chatInput": "hey bro",
+      "id": 4
+    },
+    {
+      "chatInput": "hey bro",
+      "id": 5
+    }
+  ]
+}
