@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import "../App.css"
 
 function Chat() {
     const[chatInput,setChatInput]=useState("")
@@ -23,14 +24,15 @@ function Chat() {
     <div>
        <div className='container-fluid mt-5'>
           <div className='row mt-5'>
-            <div className='col-lg-4 col-md-8 col-sm-6 mx-auto shadow border p-4'>
+            <div className='col-lg-4 col-md-8 col-sm-6 mx-auto shadow border p-4' >
                        <hr/>
                        <h4 className='text-center text-success'>CHAT APP</h4>
                        <hr/>
-                   <div>
+                   <div >
       
-
-            {
+      <div className='overF'>
+        
+      {
               chatArr.map((val,i)=>{
                     return(
                         <div key={i}>
@@ -52,6 +54,7 @@ function Chat() {
             }
 
 
+      </div>
 
         <div className="input-group mb-3 mt-5">
 
